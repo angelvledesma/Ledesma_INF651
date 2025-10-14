@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+input {
+  width: 10rem;
+  height: 2.5rem;
+  margin-top: 1rem;
+}
+
+button {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  width: 10rem;
+  height: 2.5rem;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 300px;
+  text-align: left;
+}
+
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px 10px;
+}
