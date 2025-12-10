@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angel Pizza - Contact</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <h1>Contact Angel Pizza</h1>
+    </header>
+
+    <section class="contact-form">
+      <form id="contactForm" onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" />
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" />
+
+        <label for="message">Message:</label>
+        <textarea id="message"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <p id="formMessage" style="color: red"></p>
+    </section>
+
+    <script src="contact.js"></script>
+  </body>
+</html>
