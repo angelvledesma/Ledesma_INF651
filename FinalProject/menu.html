@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angel Pizza - Menu</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="border">
+      <h1>Angel Pizza - Menu</h1>
+    </header>
+
+    <section class="filters">
+      <button class="filter-btn" onclick="filterPizzas('All')">All</button>
+      <button class="filter-btn" onclick="filterPizzas('Meat')">Meat</button>
+      <button class="filter-btn" onclick="filterPizzas('Veggie')">
+        Veggie
+      </button>
+      <button class="filter-btn" onclick="filterPizzas('Cheese')">
+        Cheese
+      </button>
+
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search pizza..."
+        onkeyup="searchPizzas()"
+      />
+    </section>
+
+    <section class="menu-list" id="menuContainer"></section>
+
+    <section class="order-summary">
+      <h2>Your Order</h2>
+      <ul id="orderList"></ul>
+      <p>Total: $<span id="orderTotal">0</span></p>
+    </section>
+
+    <script src="menu.js"></script>
+  </body>
+</html>
