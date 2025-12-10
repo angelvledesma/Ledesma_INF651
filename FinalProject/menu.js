@@ -1,4 +1,4 @@
-var pizzas = [
+let pizzas = [
   { name: "Pepperoni", price: 10, category: "Meat" },
   { name: "Margherita", price: 8, category: "Cheese" },
   { name: "Supreme", price: 12, category: "Meat" },
